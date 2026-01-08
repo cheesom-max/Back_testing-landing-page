@@ -2,7 +2,10 @@
   "permissions": {
     "allow": [
       "Bash(gh auth:*)",
-      "Bash(powershell -Command \"gh auth status\")"
+      "Bash(powershell -Command \"gh auth status\")",
+      "Bash(git rebase:*)",
+      "Bash(git -c core.editor=true rebase:*)",
+      "Bash(GIT_EDITOR=true git rebase:*)"
     ]
   }
 }

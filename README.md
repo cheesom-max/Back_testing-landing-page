@@ -1,4 +1,3 @@
-[README.md](https://github.com/user-attachments/files/24463870/README.md)
 # AI 백테스팅 랩 - 랜딩페이지
 
 > 3분 만에 투자 전략 검증. 평균 173만원 손실 방지.

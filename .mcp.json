@@ -1,0 +1,20 @@
+{
+  "mcpServers": {
+    "google-search": {
+      "command": "npx",
+      "args": ["-y", "@modelcontextprotocol/server-google-search"],
+      "env": {
+        "GOOGLE_API_KEY": "여러분의_API_키",
+        "GOOGLE_SEARCH_ENGINE_ID": "여러분의_엔진_ID"
+      }
+    },
+    "sequential-thinking": {
+      "command": "npx",
+      "args": ["-y", "@modelcontextprotocol/server-sequential-thinking"]
+    },
+    "filesystem": {
+      "command": "npx",
+      "args": ["-y", "@modelcontextprotocol/server-filesystem", "/Users/username/projects"]
+    }
+  }
+}
